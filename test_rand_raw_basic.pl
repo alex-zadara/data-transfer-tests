@@ -85,6 +85,7 @@ $cmd .= " -conc_wr_nr $conc_wr_nr -conc_rd_nr $conc_rd_nr";
 $cmd .= " -seed $seed -const $const";
 
 dt_utils_print("Running DataTransfer...\n");
+dt_utils_print("cmd: ", $cmd);
 
 $rc = dt_run_DataTransfer($cmd);
 if (!$rc) {

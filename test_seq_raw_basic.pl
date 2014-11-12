@@ -73,6 +73,7 @@ $cmd .= " -seed $seed -const $const -write $write -read $read";
 $cmd .= " -conc_req $concurrent_requests_nr -dm_rd_ratio 50";
 
 dt_utils_print("Running DataTransfer...\n");
+dt_utils_print("cmd: ", $cmd);
 
 $rc = dt_run_DataTransfer($cmd);
 if (!$rc) {

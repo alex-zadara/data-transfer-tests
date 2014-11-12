@@ -4,7 +4,7 @@ use warnings;
 use strict;
 
 sub dt_os_get_DataTransfer_path {
-    return "..\\DataTransfer\\Debug\\DataTransfer.exe";
+    return "..\\data-transfer\\DataTransfer.exe";
 }
 
 sub dt_os_get_DataTransfer_RAW_target_name {

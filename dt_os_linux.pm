@@ -11,7 +11,7 @@ use dt_os_unix;
 sub dt_os_get_DataTransfer_path { 
     my $is_raw = $_[0];
     
-	return "/home/alyakas/bin/DataTransfer";
+	return "../data-transfer/DataTransfer.linux";
 }
 
 # must return '1', since this file is being 'use'-ed.
